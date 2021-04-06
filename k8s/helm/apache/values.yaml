@@ -345,7 +345,8 @@ sidecars: {}
 service:
   ## Service type
   ##
-  type: LoadBalancer
+  type: NodePort
+  # type: LoadBalancer
   ## HTTP Port
   ##
   port: 80
