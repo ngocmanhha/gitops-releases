@@ -23,7 +23,8 @@ spec:
     spec:
       containers:
       - name: apache2d
-        image: bitnami/apache:2.4.46-debian-10-r218
+        image: bitnami/apache:latest
+        # image: bitnami/apache:2.4.46-debian-10-r218
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
