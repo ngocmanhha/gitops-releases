@@ -3,6 +3,7 @@ kind: HelmRelease
 metadata:
   name: podinfo
 spec:
+  interval: 30s
   chart:
     spec:
       version: ">=1.0.0-alpha"
