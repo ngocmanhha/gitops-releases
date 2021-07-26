@@ -6,6 +6,7 @@ spec:
   interval: 30s
   chart:
     spec:
+      chart: podinfo
       version: ">=1.0.0-alpha"
       sourceRef:
         kind: HelmRepository
