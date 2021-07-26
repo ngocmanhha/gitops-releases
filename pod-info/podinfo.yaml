@@ -21,10 +21,10 @@ spec:
   upgrade:
     remediation:
       remediateLastFailure: true
-  install:
-    remediation:
-      retries: -1
+  # install:
+  #   remediation:
+  #     retries: -1
   uninstall:
     timeout: 5m
-    disableHooks: false
+    # disableHooks: false
     keepHistory: false
